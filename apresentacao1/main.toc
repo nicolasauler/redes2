@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Laboratório de Sistemas Operacionais}{3}{0}{1}
+\beamer@sectionintoc {2}{Laboratório de Computação Gráfica Distribuída}{5}{0}{2}
+\beamer@sectionintoc {3}{Laboratório de Machine Learning Distribuído}{7}{0}{3}
+\beamer@sectionintoc {4}{Laboratório de Eletrônica}{9}{0}{4}

@@ -1,0 +1,74 @@
+\documentclass[12pt, a4paper]{nic_format}
+
+\usepackage{verbatim}
+%\usepackage[shortlabels]{enumitem}
+%\usepackage{paracol}
+%\setlength{\parindent}{1cm}
+%\setlength{\columnsep}{0pt}
+\usepackage{makecell}
+\usepackage{textcomp}
+\usepackage{gensymb}
+%\renewcommand\cellgape{\Gape[4pt]}
+
+%\usepackage{pdfpages}
+
+\usepackage{etoolbox}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+
+%% Meta data
+\title{PCS 3724 - Redes de Computadores 2}
+\date{14 de junho de 2023}
+\author{Nícolas Auler}
+
+\begin{document}
+
+\begin{titlepage}
+
+{\centering\includegraphics[width=0.3\textwidth]{pcs.png}\par}
+\vspace{0.1cm}%
+{\centering\scshape\LARGE\bfseries{PCS 3724\\Redes de Computadores 2}\par}
+\vspace{0.2cm}%
+{\centering\scshape\Large\bfseries Projeto de Rede Local\par}
+{\centering\Large Breno Tominaga \-- 11804320\\João Aras \-- 11803545\\Nícolas Auler \-- 11819900\\Sander Sohngen \-- 11819873\\\par}
+\vspace{0.1cm}%
+{\centering\large\itshape\ 14 de Junho de 2023\par}%
+\vspace{0.2cm}%
+
+\selectlanguage{brazilian}
+
+\setcounter{tocdepth}{2}    % entries down to \subsections in the TOC
+\tableofcontents
+
+\vfill
+{\centering
+    \includegraphics[width=0.25\textwidth]{poli-usp.jpg}\par
+    \vspace{0.5cm}
+    {Profa.\ Tereza Cristina M. B. Carvalho\par}
+}
+\end{titlepage}
+
+\newpage
+\selectlanguage{brazilian}
+
+\onehalfspace
+
+\input{laboratorio_so}
+\newpage
+\input{laboratorio_cg}
+\newpage
+\input{laboratorio_ia}
+\newpage
+\input{laboratorio_el}
+\newpage
+\input{predio}
+
+\newpage
+%\listoffigures
+\listoftables
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

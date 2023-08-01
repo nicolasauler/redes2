@@ -1,0 +1,71 @@
+\section{Laboratório de Inteligência Artificial}
+
+\subsection{Aplicações de Pesquisa}
+
+\subsubsection{Aprendizado de máquina na detecção precoce de doenças}
+
+O aprendizado de máquina pode ser usado para analisar grandes volumes de dados médicos, como imagens de ressonância magnética, dados genéticos ou históricos de saúde do paciente, a fim de identificar padrões ou sinais de doenças em estágios iniciais.
+
+\subsubsection{Redes neurais na previsão do mercado de ações}
+
+Redes neurais podem ser aplicadas à previsão do mercado de ações ao analisar séries temporais de preços de ações, volumes de negociação, dados econômicos e outras informações relevantes.
+
+\subsubsection{Processamento de linguagem natural para tradução automática de idiomas}
+
+PLN para realizar tradução automática, em que um sistema de IA é treinado para entender a semântica e sintaxe das línguas e, a partir de um áudio, gerar traduções precisas.
+
+\subsubsection{Aprendizado de máquina distribuído}
+
+O aprendizado de máquina distribuído é uma técnica que envolve o treinamento de modelos de aprendizado de máquina em várias máquinas ou nós de processamento simultaneamente. Distribuir o treinamento do modelo entre várias máquinas pode acelerar o processo e permitir o manejo de maiores volumes de dados
+
+\subsubsection{Visão computacional avançada}
+
+Aplicações avançadas podem incluir a identificação e rastreamento de objetos em tempo real, reconhecimento facial, detecção de anomalias em imagens médicas, análise de sentimentos a partir de expressões faciais, e muito mais.
+
+\newpage
+\subsection{Qualidade de Serviço}
+
+\subsubsection{Aprendizado de máquina na detecção precoce de doenças}
+
+A latência pode ser um fator importante se os resultados de detecção forem necessários rapidamente, como em um cenário de emergência médica.
+
+\subsubsection{Redes neurais na previsão do mercado de ações}
+
+Essa aplicação pode exigir acesso a dados em tempo real e análise rápida para fazer previsões precisas. Portanto, a latência deve ser mínima e a largura de banda deve ser suficientemente alta para lidar com fluxos de dados contínuos. Além disso, a confiabilidade e disponibilidade da rede são cruciais para garantir que as previsões possam ser feitas e usadas de forma eficaz.
+
+\subsubsection{Processamento de linguagem natural para tradução automática de idiomas}
+
+A latência pode ser uma consideração importante aqui, especialmente se a tradução automática for usada em tempo real, como em chamadas de vídeo ao vivo. Além disso, a largura de banda pode ser uma preocupação se grandes volumes de texto ou áudio precisarem ser processados.
+
+\subsubsection{Aprendizado de máquina distribuído}
+
+Para aplicações de aprendizado de máquina distribuído, a largura de banda, latência e a confiabilidade da rede são de suma importância. Uma largura de banda suficientemente alta é necessária para transmitir grandes volumes de dados entre nós de processamento. A latência deve ser minimizada para garantir que os cálculos possam ser sincronizados eficientemente entre os nós. Além disso, a rede deve ser confiável para garantir que o processamento possa continuar sem interrupções.
+
+\subsubsection{Visão computacional avançada}
+
+Aplicações de visão computacional avançada podem exigir processamento e transmissão de grandes volumes de dados de imagem ou vídeo. Portanto, a largura de banda deve ser alta e a latência deve ser minimizada, especialmente para aplicações em tempo real. A confiabilidade da rede também é importante para garantir que o processamento de imagem possa continuar sem interrupções.
+
+\subsection{Estimativas de QoS}
+
+\begin{table}[H]
+  \centering
+    \begin{tabular}{cccccc}
+        \toprule
+        &\multicolumn{5}{c}{Parâmetros de Qualidade de Serviço} \\
+        \cmidrule(rl){2-6}
+        & Vazão & Latência & Jitter & Taxa de Erro & Disponibilidade\\
+        Aplicações & [Mbps] & [ms] & [ms] & [\%] & [\%]\\
+        \cmidrule(rl){1-6}
+        \makecell{Aprendizado de máquina na detecção\\ precoce de doenças} & $>100$ & $<100$ & $<10$& $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Redes neurais na previsão do mercado de ações} & $>100$ & $<10$ & $<10$& $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Processamento de linguagem natural para \\tradução automática de idiomas} & $10$ & $<100$ & $<10$ & $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Aprendizado de máquina distribuído, \\Visão computacional avançada} & $>100$ & $<100$ & $<10$& $<1$ & $\approx100$\\
+        \bottomrule
+    \end{tabular}
+    \caption{Análise quantitativa de QoS para o Laboratório de Inteligencia Artificial}
+    \label{tab:qos-ia}
+\end{table}
+

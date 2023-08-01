@@ -1,0 +1,269 @@
+\section{Laboratório de Sistemas Operacionais}
+
+\subsection{Aplicações de Pesquisa}
+
+\subsubsection{Contribuições Open\--Source}
+
+Laboratórios de Universidades comumente contribuem com projetos
+Open\--Source.
+
+Nesse sentido, o laboratório de sistemas operacionais pode desenvolver novas funcionalidades, corrigir \textit{bugs} ou prover melhorias de desempenho para sistemas operacionais como Linux, FreeBSD ou MINIX.
+
+Além disso, o laboratório pode desenvolver algum \textit{port} para um
+hardware específico ou ainda não suportado.
+
+O laboratório pode também estar desenvolvendo o driver para
+algum hardware específico, como uma placa de vídeo, por exemplo.
+
+\subsubsection{Protótipos de Sistemas Operacionais}
+
+Um dos livros mais utilizados em aulas de Sistemas Operacionais, que,
+na verdade, é nosso livro\--texto atualmente, e, é o livro\--texto
+da disciplina há anos em diversas faculdades do mundo, é o livro
+``Sistemas Operacionais Modernos'' do Tanembaum.
+
+Para a primeira edição desse livro, o autor, na falta de uma implementação
+open\--source de um sistema operacional, desenvolveu o MINIX, em cima
+do UNIX, como um sistema operacional educacional e de pesquisa.
+
+E, em cima desse protótipo, foi que Linus Torvalds desenvolveu o Linux.
+
+Assim, uma das aplicações do laboratório será desenvolver novos protótipos
+de sistemas operacionais, talvez seguindo as tendências de microkernel
+ou de novas melhorias em termos de segurança e confiabilidade.
+
+\subsubsection{Pesquisa em Sistemas Operacionais \-- Novas aplicações e hardware}
+
+Essas tendências citadas acima, como aplicações de microkernel (que, na
+verdade, é a pesquisa do Tanembaum), assim como a ideia do MINIX 3
+de um sistema regenerativo poderiam ser exemplos de novas aplicações
+desenvolvidas no laboratório.
+
+Além disso, o laboratório pode desenvolver novas técnicas e algoritmos,
+sejam eles de escalonamento, gerenciamento de memória, sistemas de
+arquivos, drivers de dispositivos, etc.
+
+\subsubsection{Análise de Desempenho}
+
+Dadas as outras aplicações do labatório, é natural que sejam
+desenvolvidas ferramentas de suporte.
+
+Dentre as ferramentes, podem ser citadas ferramentas de medição
+de parâmetros avaliativos, como parâmetros de desempenho.
+
+Assim, a eficiência de aplicações desenvolvidas pode ser mensurada,
+além de ser possível otimizar a pesquisa a partir dessas informações
+e dados obtidos.
+
+\subsubsection{Virtualização e Containerização}
+
+Mais um paralelo com os aprendizados em Sistemas Operacionais,
+vimos que, para que seja suportada virtualização, uma série de requisitos
+deve ser obedecida pelo sistema operacional, e, consequentemente, também
+deve ser suportada pelo hardware.
+
+Além disso, com a popularização de tecnologias de containerização,
+e o destaque que tem sido dado para tecnologias de virtualização,
+é esperado que o laboratório estude melhorias nessas áreas.
+
+Isso pode acontecer seja desenvolvendo monitores de máquina virtual,
+supervisores, plataformas de containerização, além de, é claro,
+suporte em algum modelo de sistema operacional já existente.
+
+\subsubsection{Segurança e Computação Confiável}
+
+Outro tópico que pode ser desenvolvido no laboratório, envolve segurança,
+como, também, a ideia do MINIX 3 de fazer apenas um microkernel, com
+partes do sistema operacional como drivers, rodando em user level.
+
+Além disso, o laboratório pode desenvolver técnicas de detecção e
+mitigação de vulnerabilidades, como, por exemplo, técnicas de boot
+seguro, controle de acesso, detecção de intrusão e protocolos de
+comunicação segura.
+
+Outro exemplo poderia ser implementar ideias de compilação reprodutível,
+como o Nix, ou, o sistema operacional que envolve esse gerenciador
+de software: NixOS.
+
+\subsubsection{Sistemas Embarcados}
+
+Muitos sistemas operacionais são desenvolvidos para uso em sistemas
+embarcados, como dispositivos IoT, eletrodomésticos inteligentes e
+sistemas automotivos.
+
+Laboratórios de universidades podem desenvolver sistemas operacionais
+em tempo real e leves, otimizados para esses ambientes com recursos
+limitados.
+
+Também vimos que isso estará relacionado, por exemplo, aos algoritmos
+de escalonamento, que podem envolver um método cooperativo (não-preemptivo).
+
+\subsubsection{Educação e Treinamento}
+
+O laboratório também pode desempenhar um papel crucial na educação
+dos alunos sobre sistemas operacionais, novamente relacionando ao caso
+do Tanembaum.
+
+O laboratório poderá fornecer experiência prática, realizar workshops
+e oferecer cursos para ajudar os alunos a entender os sistemas operacionais
+e promover a inovação nessa área.
+
+Além disso, pode atrair novos alunos para a área de pesquisa, seja
+como IC's no Laboratório, ou como mestrandos ou doutorados.
+
+\newpage
+\subsection{Qualidade de Serviço}
+
+Este laboratório, diferentemente de Laboratórios como o de Computação Gráfica,
+também descrito neste artigo, possui uma dependência significativamente
+maior de uma infraestrutura de rede.
+
+Para aplicações como educação, segurança ou virtualização, é mais
+visível a necessidade de se garantir a qualidade de serviço.
+
+Portanto, mapearemos os seguintes parâmetros de QoS às aplicações do laboratório:
+
+\begin{enumerate}
+    \item Latência (Delay)
+    \item Variação de Latência (Jitter)
+    \item Vazão (Throughput)
+    \item Perda de Pacotes (Packet Loss)
+\end{enumerate}
+
+\subsubsection{Contribuições Open\--Source}
+
+\begin{itemize}
+    \item Vazão: dependendo do tamanho do projeto a que se realiza
+        as contribuições, vazão passa a ser um parâmetro cuja
+        garantia é necessária.
+\end{itemize}
+
+\subsubsection{Protótipos de Sistemas Operacionais}
+
+Como prototipar SO's envolve testagem e validação de \textit{features}
+como protocolos de rede, \textit{drivers}, virtualização, etc., é
+necessário suporte de QoS específico.
+
+\begin{itemize}
+    \item Latência: suporte a medição de latência.
+    \item Variação de Latência: suporte a medição de variação de latência.
+    \item Vazão: suporte a medição de vazão.
+    \item Perda de Pacotes: suporte a medição de perda de pacotes.
+\end{itemize}
+
+\subsubsection{Pesquisa em Sistemas Operacionais \-- Novas aplicações e hardware}
+
+Assim como em prototipagem, aqui pode haver a necessidade de se criar
+\textit{payloads} de teste para validar novas \textit{features} de
+sistemas operacionais.
+
+Nesse sentido, é necessário suporte de QoS para garantir que os
+testes sejam válidos.
+
+\begin{itemize}
+    \item Latência: suporte a medição de latência.
+    \item Variação de Latência: suporte a medição de variação de latência.
+    \item Vazão: suporte a medição de vazão.
+    \item Perda de Pacotes: suporte a medição de perda de pacotes.
+\end{itemize}
+
+\subsubsection{Análise de Desempenho}
+
+Aqui, além dos critérios mais obrigatórios, como suporte a medição,
+outras garantias de QoS também são necessárias.
+
+\begin{itemize}
+    \item Latência: para que as medições sejam válidas e precisas,
+        é necessário que o \textit{overhead} de medição seja mínimo.
+        Assim, deve\--se garantir baixa latência.
+    \item Vazão: para analisar aplicações de alto desempenho,
+        precisa\--se garantir suporte a altas vazões.
+    \item Perda de Pacotes: novamente, para garantir precisão
+        de ferramentas, é necessário, no mínimo, garantir
+        uma perda constante de pacotes.
+\end{itemize}
+
+\subsubsection{Virtualização e Containerização}
+
+\begin{itemize}
+    \item Latência: para que a virtualização não seja perceptível
+        ao usuário, é necessário garantir baixa latência.
+    \item Variação de Latência: para melhor experiência do usuário nas máquinas virtuais em rede
+        é necessário garantir baixo \textit{jitter}.
+\end{itemize}
+
+\subsubsection{Segurança e Computação Confiável}
+
+Essa é outra atividade que é mais independente de rede.
+
+No entanto, considerando casos de uso de rede, como, por exemplo,
+detecções de intrusão em uma máquina em rede, ou, então, comunicação
+segura entre máquinas virtuais via rede, podemos propor medidas de QoS.
+
+Outro caso que envolve rede indiretamente é o caso da compilação reprodutível,
+em que, pode\--se demandar maior vazão por ter de se compilar localmente
+algum pacote, ao invés de realizar \textit{download} de um pacote binário.
+
+\begin{itemize}
+    \item Latência: para que seja possível realizar a detecção
+        de intrusão em tempo hábil, é necessário garantir baixa latência.
+    \item Vazão: para garantir que e possível realizar a compilação
+        de um pacote em tempo hábil, é necessário garantir suporte
+        a altas vazões.
+\end{itemize}
+
+\subsubsection{Sistemas Embarcados}
+
+Aqui temos outro caso atípico, dado que, em sistemas embarcados, quando é necessário
+algum tipo de conectividade, costuma\--se ser realizado por Lora\--Wan ou algum
+tipo de solução adaptada para o caso de uso.
+
+Mas, pensando no desenvolvimento de pesquisa em sistemas embarcados, podemos
+adotar um ponto de vista que atenderá a maior parte dos casos de uso, quando
+trata\--se de Qos.
+
+\begin{itemize}
+    \item Latência: dado que sistemas embarcados costumam ser utilizados em
+        aplicações de monitoramento de alguma variável, é necessário garantir
+        baixa latência.
+    \item Perda de Pacotes: dado que nestes sistemas é menos comum implementar\--se
+        algum tipo de controle de fluxo, é necessário garantir baixa perda de pacotes.
+\end{itemize}
+
+\subsubsection{Educação e Treinamento}
+
+\begin{itemize}
+    \item Latência: dado que muitas das acoes educacionais do laboratorio
+        podem envolver videoconferências, é necessário garantir baixa latência.
+    \item Vazão: dada a qualidade de vídeo e áudio que se deseja
+        para as videoconferências, é necessário garantir suporte
+        a altas vazões.
+\end{itemize}
+
+\newpage
+\subsection{Estimativas de QoS}
+
+Valores estimados a partir das tabelas fornecidas no enunciado da ITU.
+No entanto, valores adaptados para o contexto do laboratório e para
+um contexto mais recente, onde a banda requisitada é maior.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ccccc}
+    \toprule
+    \textbf{Aplicação} & \textbf{Latência} & \textbf{Variação de Latência} & \textbf{Vazão} & \textbf{Perda de Pacotes}\\
+    & \footnotesize{ms} & \footnotesize{ms} & \footnotesize{Mbps} & \footnotesize{\%}\\
+    \midrule
+    Open Source & 10 & 5 & 15 & 0.1\\
+    Prototipagem & 50 & 10 & 10 & 0.5\\
+    Pesquisa & 20 & 5 & 20 & 0.2\\
+    Benchmarking & 15 & 3 & 50 & 0.1\\
+    Virtualização & 30 & 20 & 200 & 0.3\\
+    Segurança & 20 & 10 & 10 & 0.5\\
+    Embarcados & 10 & 5 & 5 & 0.1\\
+    Educação & 30 & 5 & 200 & 0.4\\
+    \bottomrule
+    \end{tabular}
+    \caption{Análise quantitativa de QoS para o Laboratório de Sistemas Operacionais}
+    \label{tab:qos-so}
+\end{table}

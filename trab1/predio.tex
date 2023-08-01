@@ -1,0 +1,77 @@
+\section{Prédio}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+\toprule
+Prédio                  & Partes/Andares                   & Função                          \\
+\midrule
+Prédio Administrativo  & 5 andares                       & Administração                               \\
+Prédio Acadêmico 1     & Andares 1, 2, 3, 5, 6 & Salas de Aula                   \\
+                       & Andar 4                         & Laboratórios                    \\
+                       & Térreo                          & Pós-graduação                   \\
+Prédio Acadêmico 2     & 10º Andar                       & Pesquisa e extensão             \\
+                          & 20º Andar                       & Pesquisa                        \\
+                          & -                               & Administração                   \\
+Biblioteca             & 2 andares                       & Usuários                        \\
+                          & -                               & Operação                        \\
+                          & -                               & Servidores                      \\
+Data Center            & -                               & Sistemas Administrativos Escolares \\
+                            & -                               & Banco de Dados                  \\
+                            & -                               & Sistemas de Desenvolvimento (alunos) \\
+\bottomrule
+\end{tabular}
+\caption{Descrição do campus.}
+\label{tab:campus}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+\toprule
+Prédio                  & Característica 1                                    & Característica 2                           \\
+\midrule
+Prédio Administrativo  & 20 usuários por andar                              & Todos possuem micro                       \\
+Prédio Acadêmico 1     & 4 salas por andar                                  & 1 micro por sala                          \\
+                       & 4 laboratórios                                     & 20 micros por laboratório                 \\
+                       & 5 salas                                            & 1 micro por sala                          \\
+Prédio Acadêmico 2     & 10 salas, 3 professores por sala                   & 1 micro por professor e 1 servidor por sala\\
+                          & 5 salas                                            & Dimensionar                               \\
+                          & 14 funcionários                                    & 1 micro por funcionário                   \\
+Biblioteca             & 20 baias de consulta                               & 1 micro por baia                          \\
+                            & 20 funcionários                                    & 1 micro por funcionário                   \\
+                            & INTRANET (1 servidor por aplicação)                & Email, FTP, Web Institucional, File System (alunos)\\
+Data Center            & 3 servidores & -                                    \\
+                            & 2 servidores & -                                    \\
+                            & 5 servidores & -                                    \\
+\bottomrule
+\end{tabular}
+\caption{Características do campus.}
+\label{tab:caracteristicas}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cccc}
+\toprule
+Prédio                  & Latência Ideal (ms) & Jitter Ideal (ms) & Largura de Banda Ideal (Mbps) \\
+\midrule
+Prédio Administrativo  & 20                 & 5               & >100                         \\
+Prédio Acadêmico 1     & 25                 & 8               & >100                         \\
+                       & 15                 & 3               & >200                         \\
+                       & 25                 & 8               & >100                         \\
+Prédio Acadêmico 2     & 10                 & 2               & >200                         \\
+                          & 10                 & 2               & >200                         \\
+                          & 30                 & 10               & >100                         \\
+Biblioteca             & 20                 & 5               & >100                         \\
+                            & 30                 & 10               & >100                         \\
+                            & 5                 & 1               & >1000                        \\
+Data Center            & 1                 & 0.5             & >2000                        \\
+                            & 1                 & 0.5             & >2000                        \\
+                            & 1                 & 0.5             & >2000                        \\
+\bottomrule
+\end{tabular}
+\caption{QoS do campus.}
+\label{tab:qos}
+\end{table}
+

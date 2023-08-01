@@ -1,0 +1,80 @@
+\section{Laboratório de Eletrônica}
+
+\subsection{Aplicações de Pesquisa}
+
+A eletrônica é uma área ampla, e os tipos de pesquisa podem variar dependendo dos interesses e especializações do laboratório, dentre estes temos os seguintes exemplos:
+
+\subsubsection{Pesquisa em dispositivos semicondutores}
+
+Esse tipo de pesquisa visa desenvolver e aprimorar dispositivos semicondutores, como transistores e diodos. As aplicações podem incluir o desenvolvimento de componentes eletrônicos mais eficientes, de alta velocidade e com menor consumo de energia.
+
+\subsubsection{Pesquisa em circuitos integrados}
+
+A pesquisa em circuitos integrados envolve o projeto e a otimização de circuitos eletrônicos em uma única pastilha de silício. Isso pode incluir pesquisas em técnicas de miniaturização, aumento da densidade de componentes, redução de consumo de energia e melhoria do desempenho de circuitos integrados.
+
+\subsubsection{Pesquisa em comunicação sem fio}
+
+Esse tipo de pesquisa envolve o estudo de técnicas de comunicação sem fio, como redes celulares, redes de sensores sem fio e redes de área local sem fio (Wi-Fi). As aplicações podem incluir melhorias na eficiência espectral, aumento da capacidade de rede, desenvolvimento de algoritmos de codificação e decodificação, e melhoria da segurança em comunicações sem fio.
+
+\subsubsection{Pesquisa em energia renovável}
+
+A pesquisa em energia renovável no contexto da eletrônica pode abranger o desenvolvimento de sistemas eletrônicos para captação, armazenamento e gerenciamento de energia a partir de fontes renováveis, como solar e eólica. Isso pode incluir pesquisa em sistemas de conversão de energia, sistemas de gerenciamento de baterias e otimização de eficiência energética.
+
+\subsubsection{Pesquisa em segurança eletrônica}
+
+Esse tipo de pesquisa foca na segurança de sistemas eletrônicos, abrangendo criptografia, autenticação, proteção contra ataques cibernéticos e técnicas de detecção de intrusões. As aplicações podem incluir aprimoramento da segurança em redes de computadores, dispositivos móveis e sistemas embarcados.
+
+\subsection{Qualidade de Serviço}
+
+Dada a descrição do Laboratório de eletrônica, os principais requisitos QOS normalmente envolvem fatores como latência, taxa de perda de pacotes, largura de banda e jitter. Sendo assim:
+
+Aqui é importante ressaltar que grande parte das aplicações apresentadas não necessitam de implementações de redes. Porém, assim como nos outros laboratórios, vamos levar em conta que essas aplicações vão necessitar de tais implementações. Desse modo, os parâmetros de qualidade de serviço de cada aplicação são:
+
+\subsubsection{Pesquisa em dispositivos semicondutores}
+
+Para a transferência de dados e designs de dispositivos semicondutores, alta largura de banda pode ser necessária. A latência pode não ser um grande problema, a menos que haja colaboração em tempo real com outros laboratórios ou instituições.
+
+\subsubsection{Pesquisa em circuitos integrados}
+
+Semelhante à pesquisa em dispositivos semicondutores, a pesquisa em circuitos integrados pode exigir alta largura de banda para transferir grandes volumes de dados, e a latência pode ser menos crítica, a menos que haja colaboração em tempo real.
+
+\subsubsection{Pesquisa em comunicação sem fio}
+
+Esta pesquisa exigiria um alto grau de confiabilidade e disponibilidade de rede para testar e validar algoritmos de comunicação sem fio. Baixa latência e baixa taxa de perda de pacotes seriam cruciais para a simulação e teste de cenários de comunicação em tempo real.
+
+\subsubsection{Pesquisa em energia renovável}
+
+Dependendo do tamanho e complexidade dos conjuntos de dados, esta pesquisa pode exigir alta largura de banda. Além disso, uma alta disponibilidade de rede pode ser necessária para monitorar em tempo real os sistemas de energia renovável.
+
+\subsubsection{Pesquisa em segurança eletrônica}
+
+A confiabilidade da rede seria de extrema importância aqui, uma vez que qualquer interrupção pode comprometer a segurança do sistema. Além disso, uma latência baixa seria necessária para a detecção e resposta em tempo real a potenciais ameaças de segurança.
+    
+\subsection{Estimativas de QoS}
+
+Apesar de não ser factível estimar com precisão os requisitos de QoS para cada aplicação, podemos
+fazer uma estimativa aproximada com base nos requisitos típicos de QoS para cada tipo de aplicação.
+
+A Tabela \ref{tab:qos-eletronica} apresenta essa estimativa.
+
+\begin{table}[H]
+  \centering
+    \begin{tabular}{cccccc}
+        \toprule
+        &\multicolumn{5}{c}{Parâmetros de Qualidade de Serviço} \\
+        \cmidrule(rl){2-6}
+        & Vazão & Latência & Jitter & Taxa de Erro & Disponibilidade\\
+        Aplicações & [Mbps] & [ms] & [ms] & [\%] & [\%]\\
+        \cmidrule(rl){1-6}
+        \makecell{Pesquisa em dispositivos \\semicondutores e circuitos integrados} & $100$ & $100$ & $<10$& $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Pesquisa em comunicação sem fio} & $100$ & $<10$ & $<5$& $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Pesquisa em energia renovável} & $50$ & $<100$ & $<20$ & $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Pesquisa em segurança eletrônica} & $100$ & $<10$ & $<5$& $<0.1$ & $\approx100$\\
+        \bottomrule
+    \end{tabular}
+    \caption{Análise quantitativa de QoS para o Laboratório de Eletrônica}
+    \label{tab:qos-eletronica}
+\end{table}

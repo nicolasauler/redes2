@@ -1,0 +1,107 @@
+\section{Laboratório de Computação Gráfica}
+
+O Laboratório de Computação Gráfica pode abranger uma ampla gama de tópicos de pesquisa,
+incluindo aplicações locais e em nuvem.
+O que, também afeta o viés dado esse ser um projeto de redes de computadores.
+
+Por isso, as aplicações de computação gráfica selecionadas foram:
+
+\subsection{Aplicações de Pesquisa}
+
+\subsubsection{Processamento de Imagens}
+
+É uma aplicação voltada para o tratamento de imagens.
+Resumidamente, envolve a manipulação de imagens digitais para melhorar a qualidade, extrair informações úteis, e fazer análises.
+Isso pode incluir atividades como filtragem de imagens, detecção de bordas, segmentação de imagens e outros tratamentos similares.
+
+\subsubsection{Visão Computacional}
+
+Se baseia numa simulação de interpretação do mundo físico pelo computador. Resumidamente, é uma área que tenta fazer com que os computadores "vejam" e entendam o mundo visual como os humanos fazem. Isso pode incluir capacidades como reconhecimento de objetos, rastreamento de movimento, reconhecimento de padrões e outros comportamentos visuais.
+
+\subsubsection{Renderização de Imagens}
+
+Concentra\--se no processamento digital. É uma aplicação que envolve a criação de imagens a partir de modelos 3D podendo envolver o uso de técnicas de iluminação, sombreamento, texturização, e outras para criar certos estilos visuais, realistas ou não.
+
+\subsubsection{Computação Gráfica Interativa}
+
+Abrange toda e qualquer aplicação de interação visual humana. Como cerne da área, envolve a criação de sistemas que permitem aos usuários interagir com gráficos computacionais em tempo real. Trata-se, basicamente do desenvolvimento de programas como jogos de computador, realidade virtual, e outras aplicações interativas.
+
+\subsubsection{Modelagem Geométrica}
+
+Se baseia na confecção de modelos físicos. Em outras palavras, envolve a criação e manipulação de modelos geométricos, que podem ser usados para representar objetos da realidade em um ambiente de computação gráfica.
+
+\subsubsection{Animação Computacional}
+
+Esta área envolve a criação de animações usando computadores, que podem incluir personagens animados ou simulações físicas. Basicamente, engloba a pesquisa e o desenvolvimento de técnicas de processamento bem como o próprio processamento em si.
+
+\subsubsection{Visualização de Dados}
+
+Essa aplicação se baseia na criação de representações visuais de dados, que podem ajudar a entender e interpretar grandes conjuntos de dados. Basicamente, engloba a pesquisa de métodos de representação gráfica para o tratamento desses dados.
+
+\subsubsection{Aplicações de Realidade Virtual}
+
+Uma aplicação mais geral que se apoia no processamento vetorial gráfico para realizar atividades de inteligência artificial. Em resumo, envolve a criação de sistemas que podem aprender e melhorar a partir de dados, e pode ser usada em muitas das aplicações acima para melhorar o desempenho e a eficácia.
+
+
+
+\subsection{Qualidade de Serviço}
+
+Dada a descrição do Laboratório de Computação Gráfica realizada anteriormente, é necessário especificar quantitativamente os parâmetros de QoS para cada aplicação executada pelo laboratório. Assim, temos:
+
+Vale observar que algumas das aplicações (como processamento de imagens e visão computacional) podem ser realizadas localmente, não sendo necessário, assim, uma conexão por rede e portanto desconsidera-se o QoS. Contudo, vamos considerar que essas atividades estão sendo realizadas por meio da alguma rede para podermos analisar os parâmetros de qualidade de serviço. Assim, temos:
+
+\subsubsection{Processamento de Imagens}
+
+Para essa aplicação, vazão é importante para a transferência de imagens de grande porte. Além disso, a disponibilidade e a taxa de erro são importantes para garantir a transmissão e a não corrupção de imagens.
+
+\subsubsection{Visão Computacional}
+
+Para essa aplicação, a vazão, a disponibilidade e a taxa de erro são importantes para a transmissão bem-sucedida de dados. Pode-se dizer também que, para aplicações em tempo real dessa atividade, a latência é extremamente crítica.
+
+\subsubsection{Renderização de Imagens}
+
+Para a renderização em nuvem, a vazão, a latência e a disponibilidade são fatores críticos. Vale observar que algum atraso, a depender da aplicação
+
+\subsubsection{Computação Gráfica Interativa}
+
+Em jogos ou qualquer aplicação interativa, a latência e o jitter são extremamente importantes para evitar atrasos na transmissão de dados que podem prejudicar a experiência do usuário. A vazão também é importante para a transmissão de dados gráficos de alta qualidade.
+
+\subsubsection{Modelagem Geométrica}
+
+Se os modelos estão sendo transferidos pela rede, a vazão, a disponibilidade e a taxa de erro são importantes para garantir a correta representação física.
+
+\subsubsection{Animação Computacional}
+
+Nessa atividade, a vazão é importante para a transferência de animações, que podem ser arquivos de dados grandes. A disponibilidade e a taxa de erro são importantes para garantir a transmissão na rede sem anormalidades.
+
+\subsubsection{Visualização de Dados}
+
+Nessa aplicação, a vazão é importante, dependendo do tamanho e da complexidade dos dados. É bom pontuar também que a disponibilidade e a taxa de erro são importantes para garantir a boa transmissão desses dados na rede.
+
+\subsubsection{Aprendizado de Máquina e Inteligência Artificial}
+
+No caso de aplicações em tempo real, a latência é um fator importante. Além disso, a vazão pode ser um fator em aplicações que requerem a transmissão de grandes conjuntos de dados para machine learning.
+
+\newpage
+\subsection{Estimativas de QoS}
+
+Analisar quantitativamente depende do objetivo em que a aplicação está sendo executada.
+Uma análise aproximada seria:
+
+\begin{table}[H]
+  \centering
+    \begin{tabular}{cccccc}
+        \toprule
+        &\multicolumn{5}{c}{Parâmetros de Qualidade de Serviço} \\
+        \cmidrule(rl){2-6}
+        & Vazão & Latência & Jitter & Taxa de Erro & Disponibilidade\\
+        Aplicações & [Mbps] & [ms] & [ms] & [\%] & [\%]\\
+        \cmidrule(rl){1-6}
+        \makecell{Renderização de Imagens, \\Computação Gráfica Interativa, \\Modelagem Geométrica e \\Animação Computacional} & $10-100$ & $<50$ & $<10$& $<1$ & $\approx100$\\
+        \cmidrule(rl){1-6}
+        \makecell{Processamento de Imagens, \\Visão Computacional, \\Visualização de Dados, \\Aprendizado de Máquina e \\Inteligência Artificial} & $1-100$ & $<100$ & Mínimo possível & $<1$ & $\approx100$\\
+        \bottomrule
+    \end{tabular}
+    \caption{Análise quantitativa de QoS para o Laboratório de Computação Gráfica}
+    \label{tab:qos-cg}
+\end{table}

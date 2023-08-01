@@ -1,0 +1,73 @@
+\babel@toc {brazilian}{}
+\babel@toc {brazilian}{}
+\babel@toc {brazilian}{}
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}Laboratório de Sistemas Operacionais}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Aplicações de Pesquisa}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Contribuições Open\discretionary {-}{}{}-Source}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Protótipos de Sistemas Operacionais}{1}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Pesquisa em Sistemas Operacionais \discretionary {-}{}{}- Novas aplicações e hardware}{1}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Análise de Desempenho}{1}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Virtualização e Containerização}{1}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.6}Segurança e Computação Confiável}{2}{subsubsection.1.1.6}%
+\contentsline {subsubsection}{\numberline {1.1.7}Sistemas Embarcados}{2}{subsubsection.1.1.7}%
+\contentsline {subsubsection}{\numberline {1.1.8}Educação e Treinamento}{2}{subsubsection.1.1.8}%
+\contentsline {subsection}{\numberline {1.2}Qualidade de Serviço}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Contribuições Open\discretionary {-}{}{}-Source}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Protótipos de Sistemas Operacionais}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Pesquisa em Sistemas Operacionais \discretionary {-}{}{}- Novas aplicações e hardware}{3}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Análise de Desempenho}{3}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Virtualização e Containerização}{4}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}Segurança e Computação Confiável}{4}{subsubsection.1.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.7}Sistemas Embarcados}{4}{subsubsection.1.2.7}%
+\contentsline {subsubsection}{\numberline {1.2.8}Educação e Treinamento}{4}{subsubsection.1.2.8}%
+\contentsline {subsection}{\numberline {1.3}Estimativas de QoS}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Laboratório de Computação Gráfica}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Aplicações de Pesquisa}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Processamento de Imagens}{6}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Visão Computacional}{6}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Renderização de Imagens}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Computação Gráfica Interativa}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Modelagem Geométrica}{6}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Animação Computacional}{6}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.7}Visualização de Dados}{6}{subsubsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.8}Aplicações de Realidade Virtual}{6}{subsubsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.2}Qualidade de Serviço}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Processamento de Imagens}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Visão Computacional}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Renderização de Imagens}{7}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Computação Gráfica Interativa}{7}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Modelagem Geométrica}{7}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Animação Computacional}{7}{subsubsection.2.2.6}%
+\contentsline {subsubsection}{\numberline {2.2.7}Visualização de Dados}{7}{subsubsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.8}Aprendizado de Máquina e Inteligência Artificial}{7}{subsubsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.3}Estimativas de QoS}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Laboratório de Inteligência Artificial}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Aplicações de Pesquisa}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Aprendizado de máquina na detecção precoce de doenças}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Redes neurais na previsão do mercado de ações}{9}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Processamento de linguagem natural para tradução automática de idiomas}{9}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Aprendizado de máquina distribuído}{9}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Visão computacional avançada}{9}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}Qualidade de Serviço}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Aprendizado de máquina na detecção precoce de doenças}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Redes neurais na previsão do mercado de ações}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Processamento de linguagem natural para tradução automática de idiomas}{10}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Aprendizado de máquina distribuído}{10}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Visão computacional avançada}{10}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.3}Estimativas de QoS}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Laboratório de Eletrônica}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Aplicações de Pesquisa}{11}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Pesquisa em dispositivos semicondutores}{11}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Pesquisa em circuitos integrados}{11}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Pesquisa em comunicação sem fio}{11}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Pesquisa em energia renovável}{11}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Pesquisa em segurança eletrônica}{11}{subsubsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.2}Qualidade de Serviço}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Pesquisa em dispositivos semicondutores}{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Pesquisa em circuitos integrados}{12}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Pesquisa em comunicação sem fio}{12}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Pesquisa em energia renovável}{12}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Pesquisa em segurança eletrônica}{12}{subsubsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.3}Estimativas de QoS}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Prédio}{13}{section.5}%
